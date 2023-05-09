@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Калейдоскоп</title>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <a class="header__logo logo" href="#">
+            <div class="logo__img">
+              <img src="img/logo.png" aria-hidden="true" />
+            </div>
+            <span class="logo__text">МОУ ЦДТ Кировского района</span>
+            <span class="logo__descr"
+              >Муниципальное учреждение дополнительного образования</span
+            >
+          </a>
+          <div class="header__menu menu">
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="" class="menu__link">КОНТАКТЫ</a>
+                </li>
+                <li class="menu__item">
+                  <a href="" class="menu__link">ДОСТИЖЕНИЯ</a>
+                </li>
+                <li class="menu__item">
+                  <a href="" class="menu__link">КАЛЕЙДОСКОП</a>
+                </li>
+                <li class="menu__item">
+                  <div class="menu-sub">
+                    <div class="menu_title nav_menu_link">
+                      НАПРАВЛЕНИЯ <img src="./img/Polygon.svg" alt="Polygon" />
+                    </div>
+                    <div class="menu_items">
+                      <div class="menu_item">
+                        <a href="directionhyd.html">художественное</a>
+                      </div>
+                      <div class="menu_item">
+                        <a href="directiontex.html">техническое</a>
+                      </div>
+                      <div class="menu_item">
+                        <a href="directionsport.html">физ-спортивное</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <button type="button" class="menu__btn">
+                <span></span>
+              </button>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <main class="page">
+        <section class="koleid">
+          <div class="koleid__container">
+            <h2 class="koleid__title">Калейдоскоп направлений</h2>
+            <p class="koleid__subtitle">
+              ИНДИВИДУАЛЬНЫЙ ПОДБОР ЗАНЯТИЙ ПО ИНТЕРЕСАМ
+            </p>
+            <div class="koleid_selects">
+              <div class="koleid_select koleid_select_age" id="age">
+                <div class="koleid_select_title">
+                  возраст <img src="img/Polygon.svg" alt="Polygon" />
+                </div>
+                <div class="koleid_select_items">
+                  <p class="koleid_select_item">0т 5 до 7</p>
+                  <p class="koleid_select_item">0т 7 до 11</p>
+                  <p class="koleid_select_item">0т 11 до 13</p>
+                </div>
+              </div>
+              <div class="koleid_select koleid_select_hobby" id="hobby">
+                <h4 class="koleid_select_title">
+                  пристрастия <img src="img/Polygon.svg" alt="Polygon" />
+                </h4>
+                <div class="koleid_select_items">
+                  <p class="koleid_select_item" data-tab="drawing">рисование</p>
+                  <p class="koleid_select_item" data-tab="dancing">танцы</p>
+                  <p class="koleid_select_item" data-tab="science">наука</p>
+                </div>
+              </div>
+            </div>
+            <div class="koleid_tab" id="drawing">
+              <h4 class="koleid_tab_title">вам подходит</h4>
+              <p class="koleid_tab_name">Художественная направленность</p>
+              <p class="koleid_tab_text">
+                Восприятие произведения искусства, продуктов художественного
+                творчества с целью генерирования новых смыслов, внесения новизны
+                в уже имеющийся продукт деятельности средствами художественного
+                освоения мира.
+              </p>
+              <p class="koleid_tab_mark">
+                подробнее ознакомиться с данной направленностью можно по ссылке
+              </p>
+              <a class="koleid_tab_btn" href="directionhyd.html">подробнее</a>
+            </div>
+            <div class="koleid_tab" id="science">
+              <h4 class="koleid_tab_title">вам подходит</h4>
+              <p class="koleid_tab_name">Техническая направленность</p>
+              <p class="koleid_tab_text">
+                Развитие у учащихся технических и научных способностей,
+                целенаправленную организацию научно-исследовательской
+                деятельности, имеющую большое значение для научно-технического и
+                социально-экономического потенциала общества и государства.
+              </p>
+              <p class="koleid_tab_mark">
+                подробнее ознакомиться с данной направленностью можно по ссылке
+              </p>
+              <a class="koleid_tab_btn" href="directiontex.html">подробнее</a>
+            </div>
+            <div class="koleid_tab" id="dancing">
+              <h4 class="koleid_tab_title">вам подходит</h4>
+              <p class="koleid_tab_name">
+                Физкультурно-спортивная направленность
+              </p>
+              <p class="koleid_tab_text">
+                Оздоровление детей средствами физической культуры, спорта,
+                развитие их двигательных качеств, ловкости, быстроты и силы,
+                привитие им потребности к физическому совершенствованию,
+                здоровому образу жизни.
+              </p>
+              <p class="koleid_tab_mark">
+                подробнее ознакомиться с данной направленностью можно по ссылке
+              </p>
+              <a class="koleid_tab_btn" href="directionsport.html">подробнее</a>
+            </div>
+          </div>
+        </section>
+      </main>
+      <div class="feedback">
+        <div class="feedback__bigcontainer">
+          <div class="feedback__container">
+            <h3 class="feedback__title">
+              Остались вопросы? Оставьте запрос и ответ придет вам почту
+            </h3>
+            <form class="feedback__form" action="/" method="POST">
+              <input
+                class="feedback__input"
+                name="email"
+                type="email"
+                placeholder="Email"
+                required
+              />
+              <input
+                class="feedback__input"
+                mane="mess"
+                type="text"
+                placeholder="Ваш вопрос"
+                required
+              />
+              <input
+                class="feedback__bnt"
+                name="feedback"
+                type="submit"
+                value="отправить"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+				<div class="footer__bigcontainer">
+
+					<div class="footer__container">
+						<a class="footer__logo logo" href="#">
+            <span class="footer__logo-text">МОУ ЦДТ Кировского района</span>
+          </a>
+          <p class="footer__text">Волгоград 2023</p>
+        </div>
+			</div>
+      </footer>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Главная</title>
+    <meta charset="UTF-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <a class="header__logo logo" href="#">
+            <div class="logo__img">
+              <img src="img/logo.png" aria-hidden="true" />
+            </div>
+            <span class="logo__text">МОУ ЦДТ Кировского района</span>
+            <span class="logo__descr"
+              >Муниципальное учреждение дополнительного образования</span
+            >
+          </a>
+          <div class="header__menu menu">
+            <nav class="menu__body">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="" class="menu__link">КОНТАКТЫ</a>
+                </li>
+                <li class="menu__item">
+                  <a href="" class="menu__link">ДОСТИЖЕНИЯ</a>
+                </li>
+                <li class="menu__item">
+                  <a href="" class="menu__link">КАЛЕЙДОСКОП</a>
+                </li>
+                <li class="menu__item">
+                  <div class="menu-sub">
+                    <div class="menu_title nav_menu_link">
+                      НАПРАВЛЕНИЯ <img src="./img/Polygon.svg" alt="Polygon" />
+                    </div>
+                    <div class="menu_items">
+                      <div class="menu_item">
+                        <a href="directionhyd.html">художественное</a>
+                      </div>
+                      <div class="menu_item">
+                        <a href="directiontex.html">техническое</a>
+                      </div>
+                      <div class="menu_item">
+                        <a href="directionsport.html">физ-спортивное</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <button type="button" class="menu__btn">
+                <span></span>
+              </button>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <main class="page">
+        <div class="contacts">
+          <div class="contacts__bigcontainer">
+
+          <h2 class="contacts__title">Свяжитесь с нами!</h2>
+          <div class="contacts__timework">
+            <div class="contacts__timework-title">Время работы:</div>
+            <br />
+            <div class="contacts__timework-text">
+              С ПОНЕДЕЛЬНИКА ПО ВОСКРЕСЕНЬЕ
+            </div>
+            <br />
+            <div class="contacts__timework-time">c 8:00 до 20:00</div>
+          </div>
+          <!--Timework-->
+          <div class="contacts__number">
+            <div class="contacts__number-text">Номер приемной комисси</div>
+            <a class="contacts__number-number" href="tel:+78442423435"
+              >+7 (8442) 42-34-35</a
+            >
+          </div>
+          <!--Number-->
+          <div class="contacts__email">
+            <div class="contacts__email-text">адрес электронной почты</div>
+            <a class="contacts__email-email" href="mailto:kir-cdt@volgadmin.ru"
+              >kir-cdt@volgadmin.ru</a
+            >
+          </div>
+          <!--Email-->
+          <div class="contacts__network">
+            <div class="contacts__network-content">
+              <a class="contacts__network-text" href="vk.ru"
+                >Мы так же есть в социальной сети</a
+              >
+              <div class="contacts__network-image">
+                <img src="img/network.png" alt="vk" />
+              </div>
+            </div>
+          </div>
+          <!--Network-->
+          <div class="contacts__adress">
+            <div class="contacts__adress-text">
+              наш центр находится по адресу ул. Козьмы Минина 12А
+            </div>
+          </div>
+        </div>
+        </div> <!--contacts-->
+      </main>
+      <div class="feedback">
+        <div class="feedback__bigcontainer">
+
+          <div class="feedback__container">
+            <h3 class="feedback__title">
+              Остались вопросы? Оставьте запрос и ответ придет вам почту
+          </h3>
+          <form class="feedback__form" action="/" method="POST">
+            <input
+              class="feedback__input"
+              name="email"
+              type="email"
+              placeholder="Email"
+              required
+              />
+            <input
+              class="feedback__input"
+              mane="mess"
+              type="text"
+              placeholder="Ваш вопрос"
+              required
+            />
+            <input
+              class="feedback__bnt"
+              name="feedback"
+              type="submit"
+              value="отправить"
+              />
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="footer__bigcontainer">
+
+          <div class="footer__container">
+            <a class="footer__logo logo" href="#">
+              <span class="footer__logo-text">МОУ ЦДТ Кировского района</span>
+            </a>
+          <p class="footer__text">Волгоград 2023</p>
+        </div>
+      </div>
+      </footer>
+    </div>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
